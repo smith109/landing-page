@@ -10,3 +10,38 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+div.hero,
+div.footer {
+  background: #1f2937;
+}
+
+.hero .navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.navbar h1 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #ffe4c4;
+}
