@@ -11,12 +11,17 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 div.hero,
 div.footer {
   background: #1f2937;
 }
 
-.hero .navbar{
+.hero .navbar,
+.hero .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,4 +49,44 @@ div.footer {
 
 .navbar a:hover {
   color: #ffe4c4;
+}
+
+.hero .header {
+  margin-top: 64px;
+  padding-bottom: 80px;
+}
+
+.header h2 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+  max-width: 400px;
+}
+
+.header p {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 300;
+  max-width: 450px;
+}
+
+.header button {
+  background: #3882f6;
+  color: #e5e7eb;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 6px 24px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.header button:hover {
+  background: #0f73ff;
+  color: #f9faf8;
+}
+
+.header .placeholder {
+  background: #868c93;
+  color: #f9faf8;
+  padding: 100px;
 }
