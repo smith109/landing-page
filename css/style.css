@@ -90,3 +90,36 @@ div.footer {
   color: #f9faf8;
   padding: 100px;
 }
+
+div.information {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.information h3 {
+  color: #1f2937;
+  font-weight: 800;
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+.information .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+div.container .item div {
+  border: 2px solid #3882f6;
+  border-radius: 5px;
+  padding: 20px;
+  height: 125px;
+  width: 125px;
+  margin: auto;
+}
+
+div.container .item p {
+  width: 150px;
+  margin-top: 8px;
+}
