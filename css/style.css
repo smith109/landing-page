@@ -115,11 +115,39 @@ div.container .item div {
   border-radius: 5px;
   padding: 20px;
   height: 125px;
-  width: 125px;
+  max-width: 125px;
   margin: auto;
 }
 
 div.container .item p {
-  width: 150px;
+  max-width: 150px;
   margin-top: 8px;
+}
+
+div.quote {
+  background: #e5e7eb;
+  margin-top: 100px;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote figure {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote blockquote {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  max-width: 782px;
+}
+
+.quote figcaption {
+  font-size: 24px;
+  font-weight: 600;
+  align-self: flex-end;
+  margin-right: 20px;
 }
