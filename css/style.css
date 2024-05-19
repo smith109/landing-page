@@ -151,3 +151,42 @@ div.quote {
   align-self: flex-end;
   margin-right: 20px;
 }
+
+div.call-to-action {
+  background: #3882F6;
+  max-width: 900px;
+  margin: 64px auto;
+  padding: 32px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.call-to-action h4 {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 600;
+  max-width: 500px;
+}
+
+.call-to-action p {
+  color: #e5e7eb;
+  font-size: 16px;
+}
+
+.call-to-action button {
+  color: #e5e7eb;
+  background: #3882F6;
+  border: 2px solid #E5E7EB;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 6px 24px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.call-to-action button:hover {
+  background: #1f2937;
+  color: #f9faf8;
+}
