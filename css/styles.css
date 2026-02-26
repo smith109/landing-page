@@ -28,3 +28,43 @@ ul {
 a {
   text-decoration: none;
 }
+
+.hero,
+.footer {
+  font-size: 18px;
+  color: #E5E7EB;
+  background: #1F2937;
+}
+
+.hero .header,
+.hero .content {
+  padding: 16px;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.header .logo,
+.content h1 {
+  color: #F9FAF8;
+}
+
+.hero .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 75px;
+  justify-content: space-between;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header .links {
+  gap: 16px;
+  display: flex;
+}
+
+.header a:hover {
+  color: #2ee8e8;
+}
