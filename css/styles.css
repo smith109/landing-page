@@ -51,7 +51,7 @@ a {
 .hero .header {
   display: flex;
   align-items: center;
-  margin-bottom: 75px;
+  margin-bottom: 48px;
   justify-content: space-between;
 }
 
@@ -67,4 +67,47 @@ a {
 
 .header a:hover {
   color: #2ee8e8;
+}
+
+.hero .content {
+  gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 64px;
+}
+
+.content .left {
+  flex-grow: 1;
+  flex-basis: 400px;
+  margin-right: auto;
+}
+
+.content h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.content p {
+  width: 450px;
+  margin-bottom: 8px;
+}
+
+.content button {
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 24px;
+  border-radius: 5px;
+  background: #3882F6;
+}
+
+.content .right {
+  flex-grow: 1;
+  flex-basis: 400px;
+}
+
+.content .placeholder {
+  padding: 117px;
+  text-align: center;
+  background: #b2b2b2;
 }
