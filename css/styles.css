@@ -127,6 +127,7 @@ a {
 .main .info-container {
   gap: 52px;
   display: flex;
+  margin-bottom: 64px;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -145,4 +146,27 @@ a {
   border-radius: 8px;
   align-self: center;
   border: 3px solid #5d5df5;
+}
+
+.main .quote {
+  padding: 64px;
+  background: #E5E7EB;
+}
+
+blockquote p {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+blockquote,
+.quote .cite {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.cite p {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: right;
+  margin-right: 20px;
 }
